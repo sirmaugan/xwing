@@ -534,6 +534,7 @@ exportObj.cardLoaders['Français'] = () ->
         'Gozanti-class Cruiser':
             text: """Après avoir exécuté une manoeuvre, vous pouvez déployer jusqu'à 2 vaisseaux arrimés."""
         '"Scourge"':
+            ship: "Chasseur TIE"
             text: """Quand vous attaquez un défenseur qui a au moins 1 carte de dégâts, lancez 1 dé d'attaque supplémentaire."""
         "The Inquisitor":
             text: """Quand vous attaquez avec votre arme principale à portée 2-3, considérez que votre attaque se fait à portée 1."""
@@ -565,10 +566,13 @@ exportObj.cardLoaders['Français'] = () ->
         'Hera Syndulla':
             text: '''Quand vous révélez une manoeuvre verte ou rouge, vous pouvez tourner votre cadran sur une autre manoeuvre de même difficulté.'''
         '"Youngster"':
+            ship: "Chasseur TIE"
             text: """Les chasseurs TIE alliés situés à portée 1-3 peuvent effectuer l'action de votre carte d'amélioration %ELITE% dont vous êtes équipé."""
         '"Wampa"':
+            ship: "Chasseur TIE"
             text: """Quand vous attaquez, vous pouvez annuler le résultat de tous les dés. Si vous annulez au moins un résultat, assignez 1 carte dégâts face cachée au défenseur."""
         '"Chaser"':
+            ship: "Chasseur TIE"
             text: """Quand un autre vaisseau allié situé à portée 1 dépense un marqueur de concentration, assignez un marqueur de concentration à votre vaisseau."""
         'Ezra Bridger':
             text: """Quand vous défendez, si vous êtes sous l'effet du stress, vous pouvez changer jusqu'à 2 de vos résultats %FOCUS% en résultats %EVADE% ."""
